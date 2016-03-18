@@ -1,0 +1,73 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul{
+	list-style: none;
+}
+
+body{
+	font: 14px/1 Tahoma, Helvetica, Arial, "楷体", sans-serif;
+	padding: 20px;
+}
+.bg{
+	background: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+	overflow: hidden;
+	min-width:684px;
+}
+
+/*左侧区域*/
+.team-name{
+	width: 160px;
+	float: left;
+	background: #ffffff;
+	margin-left: -100%;
+	border: 1px solid #999;
+	padding: 20px;
+}
+.team-name img{
+	height: 80px;
+	width: 80px;
+	border-radius: 20%;
+}
+.team-name p{
+	float: right;
+	width: 60px;
+	font-size: 16px;
+	padding-top: 20px;
+
+}
+/*右侧区域*/
+.team-member{
+	width: 80px;
+	float: left;
+	background: #ffffff;
+	margin-left: -122px;
+	padding: 0 20px 20px 20px;
+	border: 1px solid #999;
+}
+.team-member ul li{
+	float: left;
+}
+.team-member ul li img{
+	height: 80px;
+	width: 80px;
+	margin-top: 20px;
+}
+/*中间列*/
+.wrap{
+	width: 100%;
+	float: left;
+}
+.team-introduce{
+	padding: 20px;
+	border: 1px solid #999;
+	margin-left: 222px;
+	margin-right: 140px;
+	background: #ffffff;
+}
+.team-introduce p{
+	margin-top: 20px;
+}
