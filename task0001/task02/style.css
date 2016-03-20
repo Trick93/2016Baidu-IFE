@@ -1,0 +1,253 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+fieldset,
+button,
+input,
+textarea
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: '微软雅黑';
+
+    background: #dedede;
+}
+.content
+{
+    padding: 20px;
+}
+
+/*头部*/
+header
+{
+    height: 60px;
+    padding: 10px 20px 10px 40px;
+
+    background: #333;
+}
+header h1
+{
+    width: 119px;
+
+    text-indent: -999px;
+
+    background: url('img/logo.jpg') no-repeat;
+}
+header ul
+{
+    float: right;
+
+    margin-top: -20px;
+}
+header ul li
+{
+    float: left;
+
+    margin-left: 25px;
+}
+header ul li.current a
+{
+    color: #9c979b;
+}
+header ul li a
+{
+    font-size: 12px;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+.page-all
+{
+    padding: 40px 22px;
+
+    border-top: 1px solid #cdcdcd;
+    border-left: 1px solid #cdcdcd;
+    background: #fff;
+    -moz-box-shadow: 4px 4px 5px #848484;
+    -webkit-box-shadow: 4px 4px 5px #848484;
+            box-shadow: 4px 4px 5px #848484;
+}
+
+/*第一篇文章*/
+.page1
+{
+    font-size: 16px;
+}
+.page1 h4
+{
+    margin-top: 23px;
+
+    color: #787473;
+}
+.page1 label
+{
+    font-size: 12px;
+
+    display: block;
+
+    padding: 13px 0;
+
+    color: #787473;
+}
+.page1 p
+{
+    line-height: 1.7em;
+
+    text-indent: 2em;
+}
+.page1 img
+{
+    margin: 10px 0;
+}
+
+/*第二篇文章*/
+.page2
+{
+    margin-top: 20px;
+}
+.page2 li
+{
+    list-style: none;
+}
+
+/*第三篇文章*/
+.page3
+{
+    margin-top: 20px;
+}
+.page3 figure
+{
+    width: 100px;
+    height: 102px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+}
+.page3 figure p
+{
+    font-size: 12px;
+    line-height: 15px;
+
+    height: 20px;
+
+    text-align: center;
+}
+.page3 figure img
+{
+    width: 100px;
+    height: 81px;
+}
+
+/*第四篇文章*/
+.page4
+{
+    margin-top: 20px;
+}
+.page4 ol
+{
+    font-size: 14px;
+    font-weight: bold;
+
+    margin-left: 40px;
+}
+.page4 table
+{
+    font-size: 14px;
+
+    border-collapse: collapse;
+
+    text-align: left;
+}
+.page4 th
+{
+    color: #fff;
+    background: #333;
+}
+.page4 tr:nth-child(6)
+{
+    font-weight: bold;
+
+    background: #ccc;
+}
+
+/*第五篇文章*/
+.page5
+{
+    margin-top: 20px;
+}
+.page5 h3
+{
+    padding: 5px 10px;
+
+    border-left: 4px solid #ccc;
+}
+.page5 form
+{
+    font-size: 14px;
+
+    padding-top: 20px;
+    padding-left: 350px;
+}
+.page5 p
+{
+    margin: 10px 104px;
+
+    color: #e8d9e0;
+}
+.page5 td
+{
+    text-align: right;
+    word-break: keep-all;
+}
+.page5 td:nth-child(2n)
+{
+    text-align: left;
+}
+.page5 .word
+{
+    color: #afafad;
+}
+.page5 button
+{
+    font-size: 16px;
+    font-weight: bold;
+
+    width: 100%;
+    height: 38px;
+
+    color: #fff;
+    border-radius: 10px;
+    background: #3355d0;
+    cursor: pointer;
+}
+
+/*底部*/
+footer
+{
+    font-size: 12px;
+
+    height: 60px;
+    padding: 20px 0 0 650px;
+
+    color: #fff;
+    background: #333;
+}
