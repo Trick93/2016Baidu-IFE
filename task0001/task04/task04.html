@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task001-4定位和居中问题</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="position.css">
+	<link rel="icon" href="img/team.ico" type="image/x-icon">
+	<script type="text/javascript">
+		window.onload = function(){
+			var text = document.getElementsByTagName("p")[0];
+			var oLink = document.getElementsByTagName("link")[0];
+			var oBtn = document.getElementsByTagName("button");
+			oBtn[0].onclick = function(){
+				oLink['href'] = "position.css";
+				text.innerHTML = "absolute"
+			}
+			oBtn[1].onclick = function(){
+				oLink['href'] = "flex.css";
+				text.innerHTML = "flex"
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="box">
+			<button>用position方法</button>
+			<button>用flex方法</button>
+			<p>absolute</p>
+			<div class="ball left-top"></div>
+			<div class="ball right-bottom"></div>
+		</div>
+	</div>
+</body>
+</html>
