@@ -307,7 +307,7 @@ header .menu .current{
 }
 .new-time .left-pic{
 	width: 66.666%;
-	
+	background: url("img/pep.png") no-repeat;
 	background-size: cover;
 	height: 565px;
 	float: left;
