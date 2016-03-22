@@ -315,9 +315,27 @@ header .menu .current{
 }
 .new-time .left-pic{
 	-webkit-animation: loop 5s infinite alternate;
+	-moz-animation: loop 5s infinite alternate;
+	-o-animation: loop 5s infinite alternate;
+	-ms-animation: loop 5s infinite alternate;
 	animation: loop 5s infinite alternate;
 }
 @-webkit-keyframes loop{
+	0% {background: url("img/pep.png") no-repeat;}
+	50% {background: url("img/pep1.png") no-repeat;}
+	100% {background: url("img/pep2.png") no-repeat;}
+}
+@-moz-keyframes loop{
+	0% {background: url("img/pep.png") no-repeat;}
+	50% {background: url("img/pep1.png") no-repeat;}
+	100% {background: url("img/pep2.png") no-repeat;}
+}
+@-o-keyframes loop{
+	0% {background: url("img/pep.png") no-repeat;}
+	50% {background: url("img/pep1.png") no-repeat;}
+	100% {background: url("img/pep2.png") no-repeat;}
+}
+@-ms-keyframes loop{
 	0% {background: url("img/pep.png") no-repeat;}
 	50% {background: url("img/pep1.png") no-repeat;}
 	100% {background: url("img/pep2.png") no-repeat;}
